@@ -1,15 +1,14 @@
 // @flow
 import React, { Component } from 'react'
-import { ConnectedRouter } from 'react-router-redux'
 import { Provider } from 'react-redux'
+import { ConnectedRouter } from 'react-router-redux'
 
-import App from './App'
+import App from './app'
 
 type Props = {
   store: Object,
   history: Object
 }
-// TODO: update the types above to be legit
 
 export default class Root extends Component<Props, {}> {
   render () {
