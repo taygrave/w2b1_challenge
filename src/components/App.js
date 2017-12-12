@@ -1,16 +1,20 @@
-/* eslint-disable import/no-named-as-default */
-import React from 'react'
-import PropTypes from 'prop-types'
+// @flow
+import React, { Component } from 'react'
 import { Switch, NavLink, Route } from 'react-router-dom'
 
 import HomePage from './HomePage'
 import NotFoundPage from './NotFoundPage'
 
+import type { Element } from '../types'
+
 // This is a class-based component because the current
 // version of hot reloading won't hot reload a stateless
 // component at the top-level.
+type Props = {
+  children?: Element
+}
 
-class App extends React.Component {
+class App extends Component<Props, {}> {
   render () {
     return (
       <div>
@@ -24,10 +28,6 @@ class App extends React.Component {
       </div>
     )
   }
-}
-
-App.propTypes = {
-  children: PropTypes.element
 }
 
 export default App

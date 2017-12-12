@@ -1,4 +1,4 @@
-// Set up your root reducer here...
+// @flow
 import { combineReducers } from 'redux'
 
 const rootReducer = combineReducers({

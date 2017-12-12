@@ -1,9 +1,10 @@
+// @flow
 import assert from 'assert'
 
 describe('I am a test place holder', () => {
   it('is true', () => {
-    const isTrue = true
+    const iExist = 'yep!'
 
-    assert(isTrue, true)
+    assert(iExist)
   })
 })

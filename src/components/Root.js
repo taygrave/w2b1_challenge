@@ -1,10 +1,17 @@
+// @flow
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import { ConnectedRouter } from 'react-router-redux'
 import { Provider } from 'react-redux'
+
 import App from './App'
 
-export default class Root extends Component {
+type Props = {
+  store: Object,
+  history: Object
+}
+// TODO: update the types above to be legit
+
+export default class Root extends Component<Props, {}> {
   render () {
     const { store, history } = this.props
     return (
@@ -15,9 +22,4 @@ export default class Root extends Component {
       </Provider>
     )
   }
-}
-
-Root.propTypes = {
-  store: PropTypes.object.isRequired,
-  history: PropTypes.object.isRequired
 }
