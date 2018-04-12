@@ -1,7 +1,7 @@
 // @flow
 import React, { Component } from 'react'
-import { ConnectedRouter } from 'react-router-redux'
 import { Provider } from 'react-redux'
+import { ConnectedRouter } from 'react-router-redux'
 
 import App from './app'
 
