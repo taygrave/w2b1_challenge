@@ -9,7 +9,6 @@ type Props = {
   store: Object,
   history: Object
 }
-// TODO: update the types above to be legit
 
 export default class Root extends Component<Props, {}> {
   render () {

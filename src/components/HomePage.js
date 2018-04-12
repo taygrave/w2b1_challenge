@@ -4,7 +4,7 @@ import React from 'react'
 const HomePage = () => {
   return (
     <div>
-      <h1>Air Amends 2</h1>
+      <h1>Customized Starter Template</h1>
     </div>
   )
 }

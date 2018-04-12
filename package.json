@@ -164,6 +164,7 @@
       "beforeEach",
       "context",
       "describe",
+      "Dispatch",
       "expect",
       "it",
       "React$Element"
