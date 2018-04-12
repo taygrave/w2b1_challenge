@@ -11,6 +11,16 @@ This will run the automated build process, start up a webserver, and open the ap
 6. **Delete the example app files.** Once you're comfortable with how the example app works, you can [delete those files and begin creating your own app](https://github.com/coryhouse/react-slingshot/blob/master/docs/FAQ.md#i-just-want-an-empty-starter-kit).
 7. **Having Trouble?** (Troubleshooting Tips)[https://github.com/coryhouse/react-slingshot#having-issues-try-these-things-first]
 
+## Modifications & Additions to 'Technologies'
+I modified the original starter kit to lint with Standard vs. ESLint (thus crossed out below) and am taking advantage of some of the ready-made styling of React Bootstrap. Additionally, I added Flow to allow for static type checking.
+
+| **Tech** | **Description** |**Learn More**|
+|----------|-------|---|
+| [Standard](https://standardjs.com/)| Linting for JavaScript where you don't have to use semi-colons! Reports syntax and style issues.| [Standard rules](https://standardjs.com/rules.html) |
+| [Flow](https://flow.org/)| A static type checker for Javascript, Flow identifies problems as you code.| [More about Flow](https://www.sitepoint.com/writing-better-javascript-with-flow/) |
+| [React Bootstrap](https://react-bootstrap.github.io/)| A ready-made component library to spiffy up the look of your basic React App.| |
+
+
 ## Technologies
 Slingshot offers a rich development experience using the following technologies:
 
@@ -24,7 +34,7 @@ Slingshot offers a rich development experience using the following technologies:
 | [Browsersync](https://www.browsersync.io/) | Lightweight development HTTP server that supports synchronized testing and debugging on multiple devices. | [Intro vid](https://www.youtube.com/watch?time_continue=1&v=heNWfzc7ufQ)|
 | [Jest](https://facebook.github.io/jest/) | Automated tests with built-in expect assertions and [Enzyme](https://github.com/airbnb/enzyme) for DOM testing without a browser using Node. | [Pluralsight Course](https://www.pluralsight.com/courses/testing-javascript) |
 | [TrackJS](https://trackjs.com/) | JavaScript error tracking. | [Free trial](https://my.trackjs.com/signup)|  
-| [ESLint](http://eslint.org/)| Lint JS. Reports syntax and style issues. Using [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) for additional React specific linting rules. | |
+~~| [ESLint](http://eslint.org/)| Lint JS. Reports syntax and style issues. Using [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) for additional React specific linting rules. | |~~
 | [SASS](http://sass-lang.com/) | Compiled CSS styles with variables, functions, and more. | [Pluralsight Course](https://www.pluralsight.com/courses/better-css)|
 | [PostCSS](https://github.com/postcss/postcss) | Transform styles with JS plugins. Used to autoprefix CSS |
 | [Editor Config](http://editorconfig.org) | Enforce consistent editor settings (spaces vs tabs, etc). | [IDE Plugins](http://editorconfig.org/#download) |
