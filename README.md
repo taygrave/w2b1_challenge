@@ -1,25 +1,21 @@
 
 This is a customized version of React Slingshot, which is a comprehensive starter kit for rapid application development using React. Slingshot uses the most popular and powerful libraries for working with React. The following is summarized version of the more detailed descriptions and instructions on [the original React Slingshot repo](https://github.com/coryhouse/react-slingshot).
 
-## Get Started
-1. **Initial Machine Setup**. First time running the starter kit? Then complete the [Initial Machine Setup](https://github.com/coryhouse/react-slingshot#initial-machine-setup).
-2. **Clone the project**. `git clone https://github.com/coryhouse/react-slingshot.git`.
-3. **Run the setup script**. `npm run setup`
-4. **Run the example app**. `npm start -s`
-This will run the automated build process, start up a webserver, and open the application in your default browser. When doing development with this kit, this command will continue watching all your files. Every time you hit save the code is rebuilt, linting runs, and tests run automatically. Note: The -s flag is optional. It enables silent mode which suppresses unnecessary messages during the build.
-5. **Review the example app.** This starter kit includes a working example app that calculates fuel savings. Note how all source code is placed under /src. Tests are placed alongside the file under test. The final built app is placed under /dist. These are the files you run in production.
-6. **Delete the example app files.** Once you're comfortable with how the example app works, you can [delete those files and begin creating your own app](https://github.com/coryhouse/react-slingshot/blob/master/docs/FAQ.md#i-just-want-an-empty-starter-kit).
-7. **Having Trouble?** (Troubleshooting Tips)[https://github.com/coryhouse/react-slingshot#having-issues-try-these-things-first]
-
 ## Modifications & Additions to 'Technologies'
-I modified the original starter kit to lint with Standard vs. ESLint (thus crossed out below) and am taking advantage of some of the ready-made styling of React Bootstrap. Additionally, I added Flow to allow for static type checking.
+I modified the original starter kit in a few notable ways to add some tech I prefer and also for simplicity and stylistic preference reasons:
+- I removed some unnecessary supplementary info files and renamed the sample files to be snake-case.
+- I removed the original demo app, and put in a much simpler demo app that simply counts button clicks (and is easier to remove / modify when you start your own project!).
+- Lint is done with Standard vs. ESLint (thus crossed out in the original tech section below) because, among other reasons, I think semi-colons are noisy.
+- I added Flow to allow for static type checking because I think it's rad.
+- I added React Bootstrap to take advantage of it's ready-made styling.
 
-| **Tech** | **Description** |**Learn More**|
+| **New Tech** | **Description** |**Learn More**|
 |----------|-------|---|
 | [Standard](https://standardjs.com/)| Linting for JavaScript where you don't have to use semi-colons! Reports syntax and style issues.| [Standard rules](https://standardjs.com/rules.html) |
 | [Flow](https://flow.org/)| A static type checker for Javascript, Flow identifies problems as you code.| [More about Flow](https://www.sitepoint.com/writing-better-javascript-with-flow/) |
 | [React Bootstrap](https://react-bootstrap.github.io/)| A ready-made component library to spiffy up the look of your basic React App.| |
 
+-----------------------
 
 ## Original Technologies
 Slingshot offers a rich development experience using the following technologies:
@@ -40,7 +36,15 @@ Slingshot offers a rich development experience using the following technologies:
 | [Editor Config](http://editorconfig.org) | Enforce consistent editor settings (spaces vs tabs, etc). | [IDE Plugins](http://editorconfig.org/#download) |
 | [npm Scripts](https://docs.npmjs.com/misc/scripts)| Glues all this together in a handy automated build. | [Pluralsight course](https://www.pluralsight.com/courses/npm-build-tool-introduction), [Why not Gulp?](https://medium.com/@housecor/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8#.vtaziro8n)  |
 
-The starter kit includes a working example app that puts all of the above to use.
+## Get Started
+1. **Initial Machine Setup**. First time running the starter kit? Then complete the [Initial Machine Setup](https://github.com/coryhouse/react-slingshot#initial-machine-setup).
+2. **Clone the project**. `git clone https://github.com/coryhouse/react-slingshot.git`.
+3. **Run the setup script**. `npm run setup`
+4. **Run the example app**. `npm start -s`
+This will run the automated build process, start up a webserver, and open the application in your default browser. When doing development with this kit, this command will continue watching all your files. Every time you hit save the code is rebuilt, linting runs, and tests run automatically. Note: The -s flag is optional. It enables silent mode which suppresses unnecessary messages during the build.
+5. **Review the example app.** This starter kit includes a working example app that calculates fuel savings. Note how all source code is placed under /src. Tests are placed alongside the file under test. The final built app is placed under /dist. These are the files you run in production.
+6. **Delete the example app files.** Once you're comfortable with how the example app works, you can [delete those files and begin creating your own app](https://github.com/coryhouse/react-slingshot/blob/master/docs/FAQ.md#i-just-want-an-empty-starter-kit).
+7. **Having Trouble?** (Troubleshooting Tips)[https://github.com/coryhouse/react-slingshot#having-issues-try-these-things-first]
 
 ## Questions?
 Check out the original [React Slingshot repo](https://github.com/coryhouse/react-slingshot)
