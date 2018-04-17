@@ -1,9 +1,9 @@
 // @flow
 import { combineReducers } from 'redux'
-import buttonClicks from './button-clicks'
+import repos from './repos'
 
 const rootReducer = combineReducers({
-  buttonClicks
+  repos
 })
 
 export default rootReducer

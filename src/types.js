@@ -9,14 +9,14 @@ export type Element = string | React$Element<any> | Array<React$Element<any>>
 
 // ACTIONS
 export type Init = { type: '@@INIT' }
-export type ClickedButton = { type: 'CLICKED_BUTTON' }
+export type ClickedButton = { type: 'FETCHED_REPOS', data: Object, user: Object}
 
 export type AnyAction =
   Init |
   ClickedButton
 
 // STATES
-export type ButtonClickState = number
+export type ButtonClickState = Object
 
 export type State = {
   buttonClicks: ButtonClickState
